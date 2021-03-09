@@ -1,0 +1,10 @@
+git init
+git remote add origin "link do repositorio"
+git checkout -b main
+npm init-y
+npm install express
+npm install nodemon --save-dev
+
+"scripts": {
+    "dev": "npx ./node_modules/nodemon/bin/nodemon.js app.js"
+  }
